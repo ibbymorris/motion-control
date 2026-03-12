@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-higgs-lime: #d1fe17;
+  --color-higgs-bg: #0F1113;
+  --color-higgs-surface: #1c1e20;
+  --color-higgs-surface-subtle: #222222;
+  --color-higgs-border: #ffffff14;
+  --color-higgs-text-secondary: #898a8b;
+  --color-higgs-button-secondary: #2e3031;
+  --color-higgs-page: #131517;
+  
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-space-grotesk: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-higgs-bg);
+  color: white;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
